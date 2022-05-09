@@ -1,0 +1,65 @@
+$background: #efe9e9;
+$defaultFont: 'Open Sans';
+
+
+body {
+    background-color: $background;
+    font-family: $defaultFont;
+    text-align: center;
+}
+
+ul li{
+    background-color: #c2c1c1;
+    padding: 0.5em;
+    margin: 0 4px 10px 4px;
+    border-radius: 10px;
+    list-style: none;
+}
+
+ul li:hover{
+    background-color: #797474;
+    color: rgb(255, 255, 255);
+}
+
+.fa-edit {
+    color: rgb(77, 57, 163);
+}
+
+i {
+    padding: 0 5px;
+}
+
+.fa-trash-alt {
+    color: #f44336;
+}
+
+.fa-plus-circle {
+    color: #4CAF50;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.buttonBack {
+  background-color: #f44336;
+  font-size: 15px !important;
+}
+
+
